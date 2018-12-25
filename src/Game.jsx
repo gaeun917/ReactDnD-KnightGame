@@ -1,4 +1,4 @@
-//subscribe to a changing state.
+// flux like pattern: subscribe to a changing state.
 // receive is the knight's position
 let knightPosition = [0, 0];
 let observer = null;
