@@ -37,6 +37,7 @@ export default function Board({knightPosition}) {
     }
 
     return (
+        // 1. specifying html backend will be used
         <DragDropContextProvider backend={HTML5Backend}>
             <div style={{
                 width: '100%',

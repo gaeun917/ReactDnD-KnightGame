@@ -27,6 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "babel-loader": "^8.0.4",
     "react-cosmos": "^4.6.4"
   }
 }
