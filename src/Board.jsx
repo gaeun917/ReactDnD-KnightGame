@@ -6,7 +6,7 @@ function renderSquare(i, [knightX, knightY]) {
     const x = i % 8;
     const y = Math.floor(i / 8);
     const isKnightHere = (x === knightX && y === knightY);
-    const black = (x + y) % 2 === 1;
+    const black = (x + y) % 2 === 1;// color of knight
     const piece = isKnightHere ? <Knight/> : null;
 
     return (
